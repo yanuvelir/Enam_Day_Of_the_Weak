@@ -31,7 +31,6 @@ public class Main {
                 System.out.println("Sorry, something went wrong. Please contact our support to resolve the problem.");
                 break;
         }
-
     }
 
     public static Constant dayOfTheWeak(){
@@ -41,10 +40,18 @@ public class Main {
             case MONDAY:
                 return Constant.MONDAY;
             case TUESDAY:
-
                 return Constant.TUESDAY;
+            case WEDNESDAY:
+                return Constant.WEDNESDAY;
+            case THURSDAY:
+                return Constant.THURSDAY;
+            case FRIDAY:
+                return Constant.FRIDAY;
+            case SATURDAY:
+                return Constant.SATURDAY;
+            case SUNDAY:
+                return Constant.SUNDAY;
             default:
-                System.out.println(currentDayOfTheWeek);
                 return Constant.UNRECOGNIZED;
         }
     }
